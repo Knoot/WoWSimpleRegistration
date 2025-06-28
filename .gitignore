@@ -2,3 +2,5 @@
 .idea
 application/config/config.php
 application/vendor
+/docker/apache/default.conf
+/docker/apache/httpd.conf

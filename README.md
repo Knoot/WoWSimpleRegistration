@@ -18,6 +18,13 @@ Supported Cores:
    <img title="Fork on GitHub" src="https://img.shields.io/github/forks/masterking32/WoWSimpleRegistration.svg?style=social&label=Fork">
 </a>
 
+## ⚙️ Quick installation with Docker
+
+1. Install docker & docker-compose
+2. Copy docker/apache/default.conf.dist and docker/apache/httpd.conf.dist without .dist and change if need
+3. Copy .env.dist as .env for manage http server port
+4. Run docker-compose up -d --build. (docker-compose down - for stop)
+
 ## 🖱️ Prerequisites
 
 Ensure PHP version 8.0 or higher is installed and the following extensions are enabled:
